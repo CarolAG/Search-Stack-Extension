@@ -3,18 +3,25 @@ body{
   width: 500px;
 }
 
+.header{
+  background-color:  #cccccc;
+
+}
 .search{
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
   border: 5px solid #f68a1f;
+  color: #262626;
 
 
 }
+
 a{
   letter-spacing: 1px;
   text-decoration: none;
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 17px;
 }
+
 .searchTags{
   letter-spacing: 1px;
   margin: 9px;
