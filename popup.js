@@ -33,7 +33,7 @@ console.log(document);
                     //console.log('tags',tags,);
                    //console.log('link',link);
                 //We're creating div tags and wrapping  every individual answers title, link and tags in one div
-              var searchItem = $('body').append(`<div class = search ><a href="${link}">${titleOfQuestion}</a><div class = searchTags>${tags}</div>></div>`);
+              var searchItem = $('body').append(`<div class = search ><a href="${link}">${titleOfQuestion}</a><div class = searchTags >${tags}</div></div>`);
             }
             $("a").click(function(){
               var productLink = $(this).attr("href");
