@@ -1,0 +1,10 @@
+body{
+  background-color: lightblue;
+}
+
+.search{
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-decoration: none;
+  border: 1px solid black
+
+}
